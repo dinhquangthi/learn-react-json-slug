@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 1,
+        "title": "Audi Q7 thế hệ mới",
+        "content" : "Q7 là một mẫu SUV cỡ lớn của Audi, bản facelift này gần như đã thay đổi hoàn toàn diện mạo đã từng biết của Q7, trở nên hầm hố và bắt mắt hơn.",
+        "picture" : "https://cdn.24h.com.vn/upload/2-2019/images/2019-06-27/Audi-Q7-the-he-moi-nhieu-thay-doi-dot-pha-du-kien-ban-ra-vao-cuoi-nam-nay-1-1561626922-351-width660height440.jpg"
+    },
+    {
+        "id" : 2,
+        "title": "xe đầu kéo chạy điện của Tesla",
+        "content" : "Sau những dòng xe điện cho cho thị trường xe gia đình, lần này Tesla lại mang đến sự bất ngờ khi ra mắt Tesla Semi vào năm 2017. Những hình ảnh thực tế đầu tiên của chiếc đầu kéo chạy điện hoàn toàn có tên Tesla Semi trên đường phố Mỹ vừa được chia sẻ.",
+        "picture" : "https://cdn.24h.com.vn/upload/2-2019/images/2019-06-26/anh-thuc-te-cua-xe-dau-keo-chay-dien-cua-Tesla-3b70044c-tesla-semi-spotted-with-tiny-frunk-2-1561540448-274-width660height528.jpg"
+    },
+    {
+        "id" : 3,
+        "title": "Ford Puma chính thức lộ diện đầy đủ",
+        "content" : "Ford Puma 2020 đã lộ diện hoàn toàn, hình ảnh và thông tin được đăng tải trên trang web của chi nhánh Anh quốc.",
+        "picture" : "https://cdn.24h.com.vn/upload/2-2019/images/2019-06-26/Tan-binh-phan-khuc-crossover-co-nho-Ford-Puma-chinh-thuc-lo-dien-day-du-1-1561547336-646-width660height358.jpg"
+    },
+    {
+        "id" : 4,
+        "title": "Ông vua bán tải Ranger",
+        "content" : "Trên trang thông tin của Cục Đăng Kiểm Việt Nam đã phát ra thông báo về thông tin triệu hồi 25.288 chiếc bán tải Ranger có thời gian năm sản xuất từ 1/3/2016 đến 16/4/2018.",
+        "picture" : "https://cdn.24h.com.vn/upload/2-2019/images/2019-06-26/ong-vua-ban-tai-Ranger-bi-trieu-hoi-hon-25200-xe-tai-Viet-Nam-ranger2-1561539288-814-width660height356.jpg"
+    }
+]

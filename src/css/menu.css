@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: #935E01;
+  font-family: 'Days One', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+h3 a {
+  font-family: 'Marck Script', cursive;
+  font-size: 35px;
+  font-weight: bold;
+  color: #8B4513;
+  padding-top: 5px;
+  text-decoration-line: underline;
+}
+
+h3 a:hover {
+  color: #8B4513;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.header {
+  background: #EED5B7;
+  width: 100%;
+  min-height: 50px;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.header2 ul {
+  padding: 4px 0;
+}
+
+.header ul li {
+  padding: 0px 15px;
+}
+
+.header ul li a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.header ul li:hover a {
+  color: #8B4513 !important;
+  transition: 0.4s;
+}
+
+.menudam {
+  background: #8B7765;
+  position: fixed;
+  z-index: 10;
+  transition: 0.5s;
+}
+
+.text-white {
+  color: white;
+}
+
+/* ===============End Header================== */
+.menu{
+  width: 100%;
+  min-height: 800px;
+  background: #fdf5e6ad;
+  padding-top: 150px;
+  padding-bottom: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.list-bakery{
+  background: #ECE2D0;
+  width: 100%;
+  height: 350px;
+  border: 1px solid #b5b5b58f;
+  margin-bottom: 30px;
+
+}
+.img-bakery{
+  width: 500px;
+}
+.img-bakery img{
+  width: 450px;
+  height: 350px;
+  display: inline-block;
+}
+.content-bakery{
+  height: 350px;
+  padding-top: 20px;
+}
+.content-bakery h4{
+  font-weight: 400;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
+.content-bakery h6{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 800;
+  color: #292929db;
+  font-size: 15px;
+  margin: 20px 0;
+}
+.content-bakery span{
+  font-weight: 500;
+  font-size: 24px;
+font-family: 'Days One', sans-serif;
+}
+.content-bakery p{
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'Kameron', serif;
+}
+.content-bakery a{
+  text-decoration: none;
+  color: #935E01;
+}
+.menu-details{
+  width: 150px;
+  height: 35px;
+  padding: 5px 20px;
+  border: 2px solid #935E01;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Kameron', serif;
+  transition: 0.3s;
+  display: inline-block;
+}
+.content-bakery a:hover .menu-details{
+  background: #935E01;
+  color: white;
+  transition: 0.3s;
+}
+
+/* ===============End Menu================== */
+.phantrang{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 15px;
+}
+.phantrang a {
+  margin-right: 15px;
+  padding: 8px 16px;
+  background: #ECE2D0;
+  color: #935E01;
+  font-weight: bold;
+  transition: 0.2s;
+}
+.phantrang a:hover {
+  background: #935E01 ;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s;
+  text-decoration: none;
+}
+.phantrang .active1{
+  background: #935E01;
+  color: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 6px;
+  font-size: 18px;
+  color: white;
+}
+/* ===============End phantrang================== */
+.banner {
+  width: 100%;
+  height: 500px;
+  background-image: url('../image/menu/menu.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* ================Footer=============== */
+.footer {
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  background: #EEDFCC;
+}
+
+.footer h3 {
+  color: #8B4513;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.footer_first{
+  padding: 5%;
+}
+.header3 {
+  font-family: 'Marck Script', cursive;
+  font-size: 43px;
+  font-weight: 600;
+  color: #8B4513;
+  margin-top: -10px;
+}
+
+.contact-us {
+  margin: 0 auto;
+}
+
+.contact-us p {
+  font-size: 14px;
+  line-height: 1;
+  color: #1C1C1C;
+}
+
+.opening {
+  margin: 0 auto;
+}
+
+.opening p {
+  font-size: 14px;
+  line-height: 1;
+  color: #1C1C1C;
+}
+
+.opening h6 {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.designed-by {
+  background: #8B7765;
+  width: 100%;
+  max-height: 50px;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.info-baguetto {
+  margin: 0 auto;
+}
+
+.info-baguetto i {
+  padding-right: 10px;
+  margin-right: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.info-baguetto i:hover {
+  transition: 0.4s;
+  color: #8B4513;
+}
