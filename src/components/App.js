@@ -6,6 +6,7 @@ import Footer from './Footer';
 import Home from './Home';
 import Contact from './Contact';
 import About from './About';
+import NewDetails from './NewDetails';
 import DieuHuongURL from '../router/DieuHuongURL';
 
 
@@ -15,9 +16,7 @@ class App extends Component {
       <Router>
       <div>
         <Header />
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
+         <DieuHuongURL/>
         <Footer/>
       </div>
       </Router >

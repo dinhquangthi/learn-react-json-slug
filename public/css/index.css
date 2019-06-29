@@ -52,8 +52,11 @@ h3 a:hover {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   font-size: 15px;
+    color: white;
 }
-
+.selected{
+  color:#8B4513 !important;
+}
 .header ul li:hover a {
   color: #8B4513 !important;
   transition: 0.4s;

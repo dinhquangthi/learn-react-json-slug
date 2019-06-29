@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
 class Header extends Component {
     render() {
         return (
@@ -12,25 +12,18 @@ class Header extends Component {
                         </button>
                         <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                             <ul className="navbar-nav ">
-                                <li className="nav-item">
-                                    <a className="nav-link header2" href="/">Home</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link header2" href="/about">About us</a>
-                                </li>
-                                
-                                <li className="nav-item">
-                                    <a className="nav-link header2" href="/contact">Contact</a>
-                                </li>
                                
                                 <li>
-                                    <Link to="/">Home</Link>
+                                    <NavLink activeClassName="selected" to="/home">Home</NavLink>
                                 </li>
                                 <li>
-                                    <Link to="/about">About</Link>
+                                    <NavLink activeClassName="selected"  to="/about">About</NavLink>
                                 </li>
                                 <li>
-                                    <Link to="/contact">Contact</Link>
+                                    <NavLink activeClassName="selected" to="/tin-chi-tiet">Tin chi tiet</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink activeClassName="selected" to="/contact">Contact</NavLink>
                                 </li>
                             </ul>
                         </div>

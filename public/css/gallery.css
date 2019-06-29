@@ -53,6 +53,7 @@ h3 a:hover {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   font-size: 15px;
+  color: white;
 }
 
 .header ul li:hover a {

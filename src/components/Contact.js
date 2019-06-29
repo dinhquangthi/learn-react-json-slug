@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NewItems from '../NewItems';
+import NewItems from './NewItems';
 import dl from './dulieu.json';
 class Contact extends Component {
     render() {
@@ -13,7 +13,7 @@ class Contact extends Component {
                                 return (
                                     <NewItems
                                     key={key}
-                                    id = {value.id}
+                                    tinId = {value.id}
                                     picture = {value.picture}
                                     title = {value.title}
                                     content = {value.content}
