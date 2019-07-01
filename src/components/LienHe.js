@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {
-    BrowserRouter as 
-    Redirect,} from "react-router-dom";
+    Redirect,
+} from "react-router-dom";
     
 class LienHe extends Component {
     constructor(props) {
@@ -38,7 +38,7 @@ class LienHe extends Component {
         if (this.state.isRedirect === true)
         {
             console.log(this.getGiaTri());
-            return <Redirect to="/" />;
+            return <Redirect to={"/home"} />;
         }
       
         return (
