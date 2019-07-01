@@ -1,5 +1,6 @@
+
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 class Header extends Component {
     render() {
         return (
@@ -24,6 +25,9 @@ class Header extends Component {
                                 </li>
                                 <li>
                                     <NavLink activeClassName="selected" to="/contact">Contact</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink activeClassName="selected" to="/lienhe">Lien He</NavLink>
                                 </li>
                             </ul>
                         </div>

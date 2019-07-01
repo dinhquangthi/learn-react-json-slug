@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
+import { BrowserRouter as  Link } from "react-router-dom";
 class NewItems extends Component {
-    constructor(props) {
-        super(props);
-        
-    }
+
     changeURL = (str) => {
         //Đổi chữ hoa thành chữ thường
         str = str.toLowerCase();
@@ -18,7 +15,7 @@ class NewItems extends Component {
         str = str.replace(/ý|ỳ|ỷ|ỹ|ỵ/gi, 'y');
         str = str.replace(/đ/gi, 'd');
         //Xóa các ký tự đặt biệt
-        str = str.replace(/\`|\~|\!|\@|\#|\||\$|\%|\^|\&|\*|\(|\)|\+|\=|\,|\.|\/|\?|\>|\<|\'|\"|\:|\;|_/gi, '');
+        // str = str.replace(/\`|\~|\!|\@|\#|\||\$|\%|\^|\&|\*|\(|\)|\+|\=|\,|\.|\/|\?|\>|\<|\'|\"|\:|\;|_/gi, '');
         //Đổi khoảng trắng thành ký tự gạch ngang
         str = str.replace(/ /gi, "-");
         // //Đổi nhiều ký tự gạch ngang liên tiếp thành 1 ký tự gạch ngang

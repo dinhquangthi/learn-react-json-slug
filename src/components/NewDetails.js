@@ -8,7 +8,8 @@ class NewDetails extends Component {
             <h3>ahahaha</h3>
             {
                     dl.map((value, key) => {
-                        if (value.id == this.props.match.params.id) {
+
+                        if (value.id === parseInt(this.props.match.params.id,20) ) {
                             return (
                                 <ul className="list-unstyled">
                                     <li className="media">
@@ -21,6 +22,7 @@ class NewDetails extends Component {
                                 </ul>
                             )
                         }
+                            return true;    
                     })
             }
                

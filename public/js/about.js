@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
   var hienra4 = document.querySelector('.about-2017');
 
   var vitri1980 = $('.about-1980').offset().top ;
-  var vitri1990 = $('.about-1990').offset().top ;
-  var vitri2005 = $('.about-2005').offset().top ;
-  var vitri2017 = $('.about-2017').offset().top ;
+  var vitri1990 = $('.about-1990').offset().top  ;
+  var vitri2005 = $('.about-2005').offset().top  ;
+  var vitri2017 = $('.about-2017').offset().top  ;
 
   // Xuat hien khi load lai trang khong can scroll
   function fadein(){
